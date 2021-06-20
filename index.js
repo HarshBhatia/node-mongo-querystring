@@ -306,10 +306,6 @@ module.exports.prototype.parse = function parse(query) {
       return;
     }
 
-    // value must be a string
-    if (typeof val !== 'string') {
-      return;
-    }
 
     // field exists query
     if (!val) {
